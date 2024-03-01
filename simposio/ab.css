@@ -1,0 +1,157 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+
+
+p{
+    padding: 20px;
+    
+}
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.turmas{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/* .a{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.b{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.c{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.d{
+    
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.e{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.f{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.g{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.h{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.i{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.j{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.k{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.l{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+
+.m{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.n{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+*/
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: green;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
