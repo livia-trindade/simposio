@@ -31,120 +31,112 @@ a{
     margin-top: 40px;
     justify-content: center;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-areas: "a b c"
+                         "d e f"
+                         "g h i"
+                         "j k l"
+                         "m n";
     
+    grid-template-columns: 30% 30% 30%;   
+    grid-auto-rows: 30% 30% 30% ;                 
 }
 
-/* .a{
-    height: 200px;
-    width: 400px;
+.a{
+    grid-area: a;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .b{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
+    margin-left: 20px;
+    grid-area: b;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .c{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
+    margin-left: 20px;
+    grid-area: c;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .d{
     
-    height: 200px;
-    width: 400px;
+    grid-area: d;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .e{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
+    margin-left: 20px;
+    grid-area: e;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .f{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
+    margin-left: 20px;
+    grid-area: f;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .g{
-    height: 200px;
-    width: 400px;
+    grid-area: g;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .h{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
+    margin-left: 20px;
+    grid-area: h;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .i{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
+    margin-left: 20px;
+    grid-area: i;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .j{
-    height: 200px;
-    width: 400px;
+    grid-area: j;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .k{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
+    margin-left: 20px;
+    grid-area: k;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .l{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
+    margin-left: 20px;
+    grid-area: l;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 
 .m{
-    height: 200px;
-    width: 400px;
+    grid-area: m;
     border-radius: 15px;
     background-color: lightgray;
 }
 
 .n{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
+    margin-left: 20px;
+    grid-area: n;
     border-radius: 15px;
     background-color: lightgray;
 }
-*/
+
 
 footer{
     text-align: center;
