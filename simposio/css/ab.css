@@ -1,0 +1,186 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+p{
+    padding: 20px;
+    color: white;
+
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.turmas{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.a{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-image: url(ia.png);
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+
+.b{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-image: url(esola.jpeg);
+    background-size: cover;
+    filter: brightness(50%);
+}
+.c{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-image: url(racismo.jpeg);
+    background-size: cover;
+    filter: brightness(50%);
+}
+.d{
+    
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(indigena.jpeg);
+    filter: brightness(50%);
+}
+.e{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(mulher.jpeg);
+    filter: brightness(50%);
+}
+.f{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(imprensa.jpeg);
+    filter: brightness(50%);
+}
+.g{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(seca.jpeg);
+    filter: brightness(50%);
+}
+.h{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(desigualdade.jpeg);
+    filter: brightness(50%);
+}
+.i{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(abuso.jpeg);
+    filter: brightness(50%);
+
+}
+.j{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(trabalho.jpeg);
+    filter: brightness(50%);
+
+}
+.k{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(influenciadores.jpeg);
+    filter: brightness(50%);
+
+}
+.l{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(politica.jpeg);
+    filter: brightness(50%);
+
+}
+.m{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(etarismo.jpeg);
+    background-color: black;
+    filter: brightness(50%);
+
+}
+.n{
+    margin-left: 15px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(ambiente.jpeg);
+    filter: brightness(50%);
+
+}
+
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover, .g:hover, .h:hover, .i:hover, .j:hover, .k:hover, .l:hover, .m:hover, .n:hover{
+    background-color: grey;
+
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: green;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
