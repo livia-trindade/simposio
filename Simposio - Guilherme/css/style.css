@@ -1,0 +1,63 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Golos Text", sans-serif;
+}
+header {
+  background: rgba(24, 125, 40, 1);
+  height: 15vh;
+}
+body {
+  background: rgba(255, 255, 255, 1);
+  height: 60vh;
+}
+footer {
+  background: rgba(24, 125, 40, 1);
+  height: 24vh;
+}
+.card {
+  display: flex;
+  background: rgba(220, 205, 227, 1);
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  height: 40px;
+  width: 155px;
+  border-radius: 10px;
+}
+.sub {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+}
+.sub2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+  }
+.container {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.title {
+  margin-top: 15px;
+  text-align: center;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line div{
+    margin-top: 20px;
+    background: rgba(220, 205, 227, 1); 
+    height: 3px;
+    width: 310px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400.. 900&display=swap");
