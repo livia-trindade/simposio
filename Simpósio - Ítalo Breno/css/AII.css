@@ -1,0 +1,274 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.abas p{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.abas p:hover{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+    background-color: green;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header div.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+}
+header div.navigation{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+.ul-header{
+    width: 80%;
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    padding: 8px; 
+    
+}
+.li-header{
+    padding: 0 15px;
+    color: var(--corTexto2);
+}
+.li-header :hover{
+    border-bottom: solid 1px white;
+}
+.active {
+    font-weight: bold;
+}
+h2{
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.turmas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 200px;
+    
+    
+}
+
+.abas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    width: 1100px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.a{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/IA.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.b{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/Jovem.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.c{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/Racismo.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.d{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/Indígenas.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.e{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/Superioridade.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.f{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/Mulher\ na\ politica.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.g{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/sla.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.h{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/favela.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.i{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/Criança.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.j{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/Uber\ de\ bike.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.k{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/Likes\ likes.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.l{
+    width: 300px;
+    height: 150px;
+    background-image: url(../imgs/Muitas\ mulheres.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    width: 100%;
+    min-height: 200px;
+    background-color:green;
+    color: white;
+
+}
+section.logo-if{
+    width: 100%;
+}
+figure img.img-rod{
+    width: 20%;
+    height: 150px;
+    border-radius: 8px;
+}
+section.info{
+    display: flex;
+    justify-content: center;
+}
+div.curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+div.orientador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+div.desenvolvedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    
+}
+.bottom-footer{
+    width: 100%;
+    min-height: 10vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: solid 1px white;
+}
