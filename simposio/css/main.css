@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;600&family=Castoro+Titling&family=Caveat:wght@500&family=Lora:ital@0;1&family=Montserrat:wght@200&family=Oi&family=Playfair+Display&family=Quicksand&family=Roboto+Mono:wght@300&family=Sofia+Sans+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;600&family=Castoro+Titling&family=Caveat:wght@500&family=Lexend+Mega:wght@100..900&family=Lora:ital@0;1&family=Montserrat:wght@200&family=Oi&family=Playfair+Display&family=Quicksand&family=Roboto+Mono:wght@300&family=Sofia+Sans+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;600&family=Castoro+Titling&family=Caveat:wght@500&family=Coiny&family=Lexend+Mega:wght@100..900&family=Lora:ital@0;1&family=Montserrat:wght@200&family=Oi&family=Playfair+Display&family=Quicksand&family=Roboto+Mono:wght@300&family=Sofia+Sans+Condensed:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+}
+
+
+body{
+    font-family: "Lexend Mega", sans-serif;
+    font-weight: 300;
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+    background-color: green;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0 30px;
+}
+header div.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+}
+header div.navigation{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+.ul-header{
+    width: 80%;
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    padding: 8px; 
+    
+}
+.li-header{
+    padding: 0 15px;
+    color: var(--corTexto2);
+}
+.li-header :hover{
+    border-bottom: solid 1px white;
+}
+.active {
+    font-weight: bold;
+}
+main {
+    display: flex;
+    width: 100%;
+    min-height: 60vh;
+    background-color: green;
+}
+
+main > section.texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: transparent;
+    padding: 10px 20px ;
+}
+section.texto div.titulo {
+    width: 100%;
+}
+section.texto div.titulo h1{
+    font-size: 30pt;
+    font-family: "Lexend Mega", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+ span{
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+}
+section.texto div.descricao{
+    width: 80%;
+    text-align: justify;
+    color: white;
+    background-color: transparent;
+    padding: 15px 0;
+
+}
+main > section.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+figure.main{
+    display: flex;
+    justify-content: center;
+}
+figure.main img{
+    width: 100%;
+    height: auto;
+}
+section.text-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10vh;
+}
+
+/*Inicio da nav*/
+nav{
+    margin: 0 0 0vh 0;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 -4px 8px rgba(231, 231, 231, 0.514)
+  
+}
+
+span.redacao{
+    font-size: 25pt;
+    color: green;
+}
+p.p-text{
+    font-size: 10pt;
+}
+ul.ul-nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 15px;
+    color:#000000;
+    font-weight: bold;
+    background-color: transparent;
+  
+}
+ul.ul-nav :hover{
+    background-color: green;
+    color: white;
+}
+li.li-nav{
+    padding: 15px 40px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 4px 8px rgba(161, 158, 158, 0.493);
+    border-radius: 10px;
+    font-size: 18pt;
+}
+a{
+    text-decoration: none;
+    color: var(--corTexto1);
+}
+/*Fim da nav*/
+section.apontar{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20vh;
+    box-shadow: 0 4px 8px rgba(231, 231, 231, 0.514);
+}
+img.img-apontar{
+    width: 30%;
+}
+/**começo do carrosel*/
+section.carrossel{
+    display: flex;
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    margin-bottom: 10vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 -4px 8px rgba(231, 231, 231, 0.514), 0 4px 8px rgba(218, 218, 218, 0.514)
+}
+.wrapper{
+    max-width: 1200px;
+    position: relative;
+} 
+.wrapper i{
+    top: 50%;
+    background-color: green;
+    width: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+.wrapper i:first-child{
+    left: -23px;
+    display: none;
+}
+.wrapper i:last-child{
+    right: -23px;
+}
+.wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.carousel.dragging{
+    cursor: grab;
+    scroll-behavior: smooth;
+}
+.carousel.dragging img{
+    pointer-events: none;
+}
+.carousel img{
+    height: 340px;
+    object-fit: cover;
+    margin-left: 14px;
+    width: calc(100% / 3);
+}
+.carousel img:first-child{
+    margin-left: 0px;
+}
+/*Fim do carrossel*/
+/*Começo do rodapé*/
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+section.logo-if{
+    width: 100%;
+}
+figure img.img-rod{
+    width: 20%;
+    height: 100px;
+    border-radius: 8px;
+}
+section.info{
+    display: flex;
+    justify-content: center;
+}
+div.curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+div.orientador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+div.desenvolvedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    
+}
+.bottom-footer{
+    width: 100%;
+    min-height: 10vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: solid 1px white;
+}
