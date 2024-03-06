@@ -4,27 +4,62 @@ body{
     margin: 0;
 }
 
-p{
+#paragrafo{
     padding: 20px;
     color: white;
 
 }
 
 h2{
-    font-size: 30px;
+    font-size: 52px;
     margin-top: 30px;
     text-align: center;
 }
 
-.header{
+header{
+    display: flex;
+    align-items: center;
     width: 100%;
-    height: 50px;
+    min-height: 10vh;
     background-color: green;
-}
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  header div.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+  }
+  header div.navigation{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+  }
+  .ul-header{
+    width: 80%;
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    padding: 8px; 
+    
+  }
+  .li-header{
+    padding: 0 15px;
+    color: var(--corTexto2);
+  }
+  .li-header :hover{
+    border-bottom: solid 1px white;
+  }
+  .active {
+    font-weight: bold;
+  }
 
 a{
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .turmas{
@@ -33,7 +68,8 @@ a{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-
+    margin-bottom: 200px;
+    gap: 15px;
 }
 
 .a{
@@ -42,7 +78,7 @@ a{
     border-radius: 15px;
     background-image: url(ia.png);
     background-size: cover;
-    filter: brightness(50%);
+
 }
 
 
@@ -53,7 +89,7 @@ a{
     border-radius: 15px;
     background-image: url(esola.jpeg);
     background-size: cover;
-    filter: brightness(50%);
+
 }
 .c{
     margin-left: 15px;
@@ -62,7 +98,7 @@ a{
     border-radius: 15px;
     background-image: url(racismo.jpeg);
     background-size: cover;
-    filter: brightness(50%);
+
 }
 .d{
     
@@ -71,7 +107,7 @@ a{
     border-radius: 15px;
     background-size: cover;
     background-image: url(indigena.jpeg);
-    filter: brightness(50%);
+
 }
 .e{
     margin-left: 15px;
@@ -80,7 +116,7 @@ a{
     border-radius: 15px;
     background-size: cover;
     background-image: url(mulher.jpeg);
-    filter: brightness(50%);
+
 }
 .f{
     margin-left: 15px;
@@ -88,16 +124,16 @@ a{
     width: 400px;
     border-radius: 15px;
     background-size: cover;
-    background-image: url(imprensa.jpeg);
-    filter: brightness(50%);
+    background-image: url(seca.jpeg);
+
 }
 .g{
     height: 200px;
     width: 400px;
     border-radius: 15px;
     background-size: cover;
-    background-image: url(seca.jpeg);
-    filter: brightness(50%);
+    background-image: url(desigualdade.jpeg);
+
 }
 .h{
     margin-left: 15px;
@@ -105,8 +141,8 @@ a{
     width: 400px;
     border-radius: 15px;
     background-size: cover;
-    background-image: url(desigualdade.jpeg);
-    filter: brightness(50%);
+    background-image: url(abuso.jpeg);
+
 }
 .i{
     margin-left: 15px;
@@ -114,8 +150,8 @@ a{
     width: 400px;
     border-radius: 15px;
     background-size: cover;
-    background-image: url(abuso.jpeg);
-    filter: brightness(50%);
+    background-image: url(trabalho.jpeg);
+
 
 }
 .j{
@@ -123,8 +159,8 @@ a{
     width: 400px;
     border-radius: 15px;
     background-size: cover;
-    background-image: url(trabalho.jpeg);
-    filter: brightness(50%);
+    background-image: url(influenciadores.jpeg);
+
 
 }
 .k{
@@ -133,54 +169,99 @@ a{
     width: 400px;
     border-radius: 15px;
     background-size: cover;
-    background-image: url(influenciadores.jpeg);
-    filter: brightness(50%);
 
-}
-.l{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
-    border-radius: 15px;
-    background-size: cover;
     background-image: url(politica.jpeg);
-    filter: brightness(50%);
 
-}
-.m{
-    height: 200px;
-    width: 400px;
-    border-radius: 15px;
-    background-size: cover;
-    background-image: url(etarismo.jpeg);
-    background-color: black;
-    filter: brightness(50%);
-
-}
-.n{
-    margin-left: 15px;
-    height: 200px;
-    width: 400px;
-    border-radius: 15px;
-    background-size: cover;
-    background-image: url(ambiente.jpeg);
-    filter: brightness(50%);
 
 }
 
-.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover, .g:hover, .h:hover, .i:hover, .j:hover, .k:hover, .l:hover, .m:hover, .n:hover{
-    background-color: grey;
-
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 900;
 }
 
-
+.turmas p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.turmas p:hover{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 0.5s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 footer{
-    text-align: center;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
     width: 100%;
-    height: 100px;
+    min-height: 200px;
+    background-color:green;
     color: white;
-    background-color: green;
+
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+section.logo-if{
+    width: 100%;
+}
+figure img.img-rod{
+    width: 20%;
+    height: 150px;
+    border-radius: 8px;
+}
+section.info{
+    display: flex;
+    justify-content: center;
+}
+div.curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+div.orientador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+div.desenvolvedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    
+}
+.bottom-footer{
+    width: 100%;
+    min-height: 10vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: solid 1px white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
