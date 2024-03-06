@@ -47,24 +47,44 @@ body {
     text-align: justify;
 }
 
-.imagem  {
-  grid-area: imagens;
-  margin-left: 5%;
+.imagem {
+    grid-area: imagens;
+    margin-left: 5%;
 }
 
 #img1 {
     border: 3px lightgray solid;
     border-radius: 10px;
-    background-color: lightgray;
+    background-image: url(imagens/);
     height: 48%;
+    background-size: cover;
 }
 
 #img2 {
     border: 3px lightgray solid;
     border-radius: 10px;
-    background-color: lightgray;
+    background-image: url(imagens/ia.jpeg);
     height: 48%;
     margin-top: 10%;
+    background-size: cover;
+}
+
+#img3 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/img3.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
+}
+
+#img10 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/img3.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
 }
 
 .linha {
@@ -73,4 +93,98 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 1%;
+}
+
+.card {
+    display: flex;
+    background: rgba(220, 205, 227, 1);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 280px;
+    width: 560px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+#img8 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/img10.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
+}
+
+#img6 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/Dia_Refugiado.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
+}
+
+#img12 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/img1.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
+}
+
+#img11 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/img4.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
+}
+
+#img4 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/img5.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
+}
+
+#img7 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/img11.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
+}
+
+#img5 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/img6.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
+}
+
+#img9 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/img7.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
+}
+
+#img1 {
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-image: url(imagens/img8.jpg);
+    height: 48%;
+    margin-top: 10%;
+    background-size: cover;
 }

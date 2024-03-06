@@ -4,16 +4,93 @@
   font-family: "Golos Text", sans-serif;
 }
 header {
-  background: rgba(24, 125, 40, 1);
-  height: 12vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 10vh;
+  background-color: green;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header div.logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 20%;
+}
+header div.navigation {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+}
+.ul-header {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 8px;
+}
+.li-header {
+  padding: 0 15px;
+  color: var(--corTexto2);
+}
+.li-header :hover {
+  border-bottom: solid 1px white;
+}
+.active {
+  font-weight: bold;
 }
 body {
   background: rgba(255, 255, 255, 1);
   height: 60vh;
 }
 footer {
-  background: rgba(24, 125, 40, 1);
-  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  width: 100%;
+  min-height: 200px;
+  background-color: green;
+  color: white;
+}
+section.logo-if {
+  width: 100%;
+}
+figure img.img-rod {
+  width: 20%;
+  height: 150px;
+  border-radius: 8px;
+}
+section.info {
+  display: flex;
+  justify-content: center;
+}
+div.curso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+div.orientador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+div.desenvolvedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+.bottom-footer {
+  width: 100%;
+  min-height: 10vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-top: solid 1px white;
 }
 .card {
   display: flex;
@@ -21,11 +98,14 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 30px;
-  height: 200px;
-  width: 340px;
+  height: 180px;
+  width: 320px;
   border-radius: 10px;
   transition: all 0.5s;
   text-align: center;
+}
+h2 {
+  font-size: 52px;
 }
 .sub {
   display: grid;
@@ -49,7 +129,7 @@ footer {
 .title {
   margin-top: 15px;
   text-align: center;
-  font-size: 25px;
+  font-size: 45px;
 }
 .line {
   display: flex;
@@ -60,19 +140,19 @@ footer {
   margin-top: 20px;
   background: rgba(220, 205, 227, 1);
   height: 3px;
-  width: 680px;
+  width: 1120px;
 }
 .card a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 26px;
+  font-size: 20px;
   opacity: 0;
   transition: all 0.5s;
 }
 .card a:hover {
   text-decoration: none;
   background-color: rgb(0, 0, 0);
-  font-size: 26px;
+  font-size: 20px;
   padding: 20px;
   border-radius: 10px;
   opacity: 1;
@@ -87,7 +167,7 @@ footer {
   background-size: cover;
 }
 .v2 {
-  background-image: url(imagens/img6.jpg);
+  background-image: url(imagens/img3.jpg);
   background-size: cover;
 }
 .v3 {
@@ -111,7 +191,7 @@ footer {
   background-size: cover;
 }
 .v8 {
-  background-image: url(imagens/img12.jpg);
+  background-image: url(imagens/img11.jpg);
   background-size: cover;
 }
 .v9 {
@@ -128,3 +208,65 @@ footer {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400.. 900&display=swap");
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  width: 100%;
+  min-height: 200px;
+  background-color: green;
+  color: white;
+}
+section.logo-if {
+  width: 100%;
+}
+figure img.img-rod {
+  width: 20%;
+  height: 150px;
+  border-radius: 8px;
+}
+section.info {
+  display: flex;
+  justify-content: center;
+}
+div.curso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 33%;
+}
+div.orientador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 33%;
+}
+div.desenvolvedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  gap: 20px;
+}
+.bottom-footer {
+  width: 100%;
+  min-height: 10vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-top: solid 1px white;
+}
