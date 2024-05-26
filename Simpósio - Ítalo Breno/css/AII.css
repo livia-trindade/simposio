@@ -91,7 +91,7 @@ h2{
 .a{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/IA.jpg);
+    background-image: url(imgs/IA.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -101,7 +101,7 @@ h2{
 .b{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/Jovem.jpg);
+    background-image: url(imgs/Jovem.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -111,7 +111,7 @@ h2{
 .c{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/Racismo.jpg);
+    background-image: url(imgs/Racismo.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -121,7 +121,7 @@ h2{
 .d{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/Indígenas.jpg);
+    background-image: url(imgs/Indígenas.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -131,7 +131,7 @@ h2{
 .e{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/Superioridade.jpg);
+    background-image: url(imgs/Superioridade.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -141,7 +141,7 @@ h2{
 .f{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/Mulher\ na\ politica.jpg);
+    background-image: url(imgs/Mulher_politica.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -151,7 +151,7 @@ h2{
 .g{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/sla.jpg);
+    background-image: url(imgs/sla.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -161,7 +161,7 @@ h2{
 .h{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/favela.jpg);
+    background-image: url(imgs/favela.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -171,7 +171,7 @@ h2{
 .i{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/Criança.jpg);
+    background-image: url(imgs/Criança.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -181,7 +181,7 @@ h2{
 .j{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/Uber\ de\ bike.jpg);
+    background-image: url(imgs/Uber_bike.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -191,7 +191,7 @@ h2{
 .k{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/Likes\ likes.jpg);
+    background-image: url(imgs/Likes_likes.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
@@ -201,7 +201,7 @@ h2{
 .l{
     width: 300px;
     height: 150px;
-    background-image: url(../imgs/Muitas\ mulheres.jpg);
+    background-image: url(../imgs/Muitas_mulheres.jpg);
     background-size: cover;
     filter: brightness(80%);
     border-radius: 20px;
